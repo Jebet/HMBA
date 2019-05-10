@@ -1,0 +1,93 @@
+.detail-wrapper {
+  display: flex;
+  background-color: maroon;
+  padding: 30px 250px 30px 250px;
+  flex-flow: row nowrap;
+  height: 400px;
+  margin: 0 auto;
+}
+.card-1 {
+  background: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  position: relative;
+  height: auto;
+  width: 40%;
+  padding: 20px;
+  top: 0%;
+  right: 20px;
+  text-align: center;
+}
+.card-2 {
+  background: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  position: relative;
+  height: auto;
+  width: 40%;
+  justify-content: space-evenly;
+  top: 0%;
+  align-content: center;
+  padding: 20px;
+  text-align: center;
+}
+.card-3 {
+  background: #ffffff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  position: relative;
+  height: auto;
+  width: 40%;
+  padding: 20px;
+  top: 0%;
+  left: 20px;
+  text-align: center;
+}
+.fa-user-circle {
+  color: red;
+
+  position: relative;
+}
+.name {
+  color: red;
+}
+.fa-quote-left {
+  color: red;
+  margin: 0 auto;
+}
+.place {
+  bottom: 10px;
+  position: relative;
+}
+.fa-arrow-circle-left {
+  color: white;
+  position: relative;
+  right: 100px;
+  top: 180px;
+}
+.fa-arrow-circle-right {
+  color: white;
+  position: relative;
+  left: 100px;
+  top: 180px;
+}
+@media only screen and (min-width) and (max-width: 1024px) {
+  .detail-wrapper {
+    width: 100%;
+  }
+  .card-1 {
+    width: 100%;
+  }
+  .card-2 {
+    width: 100%;
+  }
+  .card-3 {
+    width: 100%;
+  }
+  .fa-user-circle {
+    width: 100%;
+  }
+  .name {
+    width: 100%;
+  }
+}

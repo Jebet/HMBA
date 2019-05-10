@@ -1,0 +1,10 @@
+.ui-relaxed-divided-list {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.VideoItem {
+  padding: 10px;
+  /* position: relative;
+  left: 200px; */
+}
